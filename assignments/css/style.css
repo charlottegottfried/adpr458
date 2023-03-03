@@ -31,6 +31,18 @@ h3{
     border: 5px solid #9abcf8;
 }
 
+a: link, a: visited {
+    color: #9abcf8;
+    text-decoration: none;
+
+}
+
+a: hover {
+    color: #6e8fc7;
+    text-decoration: underline;
+
+}
+
 /***** Layout *******/
 
 .container {
@@ -61,3 +73,25 @@ h3{
 
 }
 }
+
+/***** Components ******/
+.button: link, .button:visited {
+    color: white;
+    background-color:#9abcf8;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+    display: inline-block;
+    margin: 0 .25rem .25rem 0;
+    transition: backgound-color 0.5s ease;
+    
+}
+
+.button:hover {
+    background-color: #6e8fc7;
+    
+}
+
+

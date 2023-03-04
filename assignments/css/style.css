@@ -31,17 +31,20 @@ h3{
     border: 5px solid #9abcf8;
 }
 
-a: link, a: visited {
+a:link, a:visited {
     color: #9abcf8;
     text-decoration: none;
 
 }
 
-a: hover {
+a:hover {
     color: #6e8fc7;
     text-decoration: underline;
 
 }
+
+
+
 
 /***** Layout *******/
 
@@ -74,8 +77,10 @@ a: hover {
 }
 }
 
+
+
 /***** Components ******/
-.button: link, .button:visited {
+.button:link, .button:visited {
     color: white;
     background-color:#9abcf8;
     text-align: center;
@@ -93,5 +98,3 @@ a: hover {
     background-color: #6e8fc7;
     
 }
-
-

@@ -86,6 +86,19 @@ img {
     left: 33%;
 }
 
+.image-smaller {
+    height: auto;
+    width: 10rem;
+    position: relative;
+    left: 0%;
+}
+
+.image-smallish {
+    height: auto;
+    width: 20rem;
+    position: relative;
+    left: 0%;
+}
 
 .container-skinny {
 
@@ -107,15 +120,16 @@ img {
 .color-box {
     background-color: #0A2232;
     position: absolute;
-    top: 65rem;
+    top: 68rem;
     left: 0;
     width: 100%;
-    height: 2380px; 
+    height: 2320px; 
     z-index: -5;
 }
 .image-container1 {
     position: relative; 
     margin: 0;
+    z-index: -5;
 
   }
 
@@ -133,6 +147,31 @@ img {
     transform: translate(-50%, -50%); 
     color: var(--primary_color);
     width: 40%;
+    color: #00ff66;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1px;
+    text-decoration: none;
+    position: left 50% top 10%;
+    z-index: 5;
+  }
+
+  .image-text-button {
+    top: 100%;
+    z-index: 5;
+  }
+
+  .image-text-title {
+    position: absolute; 
+    top: 70%; 
+    left: 105%; 
+    transform: translate(-120%, -60%); 
+    color: var(--primary_color);
+    width: 80%;
+    font-weight: 700;
+    font-size: 20px;
+    z-index: 5;
   }
   
   .image-text1 {
@@ -144,6 +183,7 @@ img {
     width: 80%;
     font-weight: 700;
     font-size: 20px;
+    z-index: 5;
   }
   .image-text2 {
     position: absolute; 
@@ -154,6 +194,42 @@ img {
     width: 80%;
   }
 
+  .image-text3 {
+    position: absolute; 
+    top: 130%; 
+    left: 105%; 
+    transform: translate(-127%, -90%); 
+    color: var(--primary_color);
+    width: 80%;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .image-text4 {
+    position: absolute; 
+    top: 137%; 
+    left: 105%; 
+    transform: translate(-85%, -90%); 
+    color: var(--primary_color);
+    width: 80%;
+  }
+  .image-text5 {
+    position: absolute; 
+    top: 127%; 
+    left: 71%; 
+    color: var(--primary_color);
+    width: 80%;
+    font-weight: 700;
+    font-size: 20px;
+    z-index: 2;
+  }
+  .image-text6 {
+    position: absolute; 
+    top: 135%; 
+    left: 71%; 
+    color: var(--primary_color);
+    width: 80%;
+    z-index: 2;
+  }
 
 /*classes*/
 
@@ -178,20 +254,20 @@ img {
 .color-box-footer {
     background-color: #0A2232;
     position: absolute;
-    top: 233rem;
+    top: 230rem;
     left: 0;
     width: 100%;
-    height: 25rem; 
+    height: 34rem; 
     z-index: -1;
 }
 
 .color-box-footer-classes {
     background-color: #0A2232;
     position: absolute;
-    top: 115rem;
+    top: 105rem;
     left: 0;
     width: 100%;
-    height: 40rem; 
+    height: 35rem; 
     z-index: -1;
 }
 
@@ -216,6 +292,27 @@ img {
 .white {
     color: white;
 }
+
+style
+  .image-text3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 1px;
+    text-decoration: none;
+    position: left 50%
+  }
+  
+  .image-text-button:hover {
+    background-color: var(--primary_color);
+  }
+
+.align-left {
+    align-items: left;
+}
+
 
 
 /* Media Queries for larger screens than 768px */

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Skillshare</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Classes</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Log In</a></li>
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Hero section -->
+    <section id="hero">
+      <h1>Unlock Your Creativity with Skillshare</h1>
+      <p>Join millions of students worldwide and take classes on design, business, and more.</p>
+      <button>Get Started</button>
+    </section>
+    
+    <!-- Featured classes section -->
+    <section id="featured-classes">
+      <h2>Featured Classes</h2>
+      <div class="class">
+        <img src="class1.jpg" alt="Class 1">
+        <h3>Class 1 Title</h3>
+        <p>Class 1 description goes here.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+      <div class="class">
+        <img src="class2.jpg" alt="Class 2">
+        <h3>Class 2 Title</h3>
+        <p>Class 2 description goes here.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+      <div class="class">
+        <img src="class3.jpg" alt="Class 3">
+        <h3>Class 3 Title</h3>
+        <p>Class 3 description goes here.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+    </section>
+    
+    <!-- Testimonials section -->
+    <section id="testimonials">
+      <h2>What Our Students Are Saying</h2>
+      <div class="testimonial">
+        <p>Testimonial 1 goes here.</p>
+        <p><strong>Name 1</strong>, Class 1 Title</p>
+      </div>
+      <div class="testimonial">
+        <p>Testimonial 2 goes here.</p>
+        <p><strong>Name 2</strong>, Class 2 Title</p>
+      </div>
+      <div class="testimonial">
+        <p>Testimonial 3 goes here.</p>
+        <p><strong>Name 3</strong>, Class 3 Title</p>
+      </div>
+    </section>
+    
+    <!-- Footer section -->
+    <footer>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

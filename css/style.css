@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+  h1 {
+font-size: 2rem;
+}
+
+.lifesavers {
+    font-family: 'Life Savers', cursive;
+    font-size: 64px;
+}
+
+.barlow {
+    font-family: 'Barlow', sans-serif;
+    line-height: 24px;
+}
+
+  h2 {
+    color: #ffffff;
+    font-size: 1.35rem;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+img {
+
+}
+
+.logo {
+}
+
+a:link, a:visited {
+    color: #9abcf8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6e8fc7;
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+.contactheader {
+    background-color: #FFD6BF;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    align-items:center;
+    height: 3rem;
+    color: white;
+}
+.underline {
+    text-decoration: underline; 
+}
+
+button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+
+/***** Layout *******/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    margin: 0rem 0rem 0rem 0rem;
+    width: min(95%, 75rem);
+}
+
+.header-padding {
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.header {
+    background-color: #FFD6BF;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    margin: 0 0;
+    height: 4.5rem;
+}
+
+.container > *,
+.header > * {
+    grid-column: span 12;
+}
+
+.align-right {
+    justify-items: right;
+}
+
+/*******Navigation Using Flexbox*********/
+nav {
+    padding: 0 0rem;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    margin: 0 .5rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+Nav li {
+    margin: 0 .5rem;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 1rem;
+    display: block;
+    transition: ease-in-out 250ms;
+}
+
+nav a:hover {
+    color:rgb(255, 149, 0);
+
+}
+
+/***** Components ******/
+.button:link, .button:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+    display: inline-block;
+    margin: 0 .25rem .25rem 0;
+    transition: backgound-color 0.5s ease;
+}
+
+.button:hover {
+    color:rgb(255, 149, 0);
+}
+
+.card {
+    text-align: center;
+    margin: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 .125rem .5rem rgba(0,0,0,.15);
+}
+
+.card-title {
+    margin: 0.75rem 0 0 0;
+    padding: 0 2rem 0.5rem;
+}
+
+card-text {
+    margin: 0.5rem 0 1rem 0;
+    padding: 0 2rem 0.5rem;
+}
+
+
+.my-work-button {
+        color: white;
+        background-color: #ABD7E0;
+        text-align: center;
+        padding: 1rem 1.75rem;
+        border-radius: 10px;
+        box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+        display: inline-block;
+        margin: 0 .25rem .25rem 0;
+        transition: backgound-color 0.5s ease;
+        width: 100px;
+        height: 41px;
+        left: 71px;
+        top: 774px;
+}
+
+.gondola-button {
+    color: white;
+    background-color: #FFD990;
+    text-align: center;
+    padding: 1rem 1.75rem;
+    border-radius: 10px;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+    display: inline-block;
+    margin: 0 .25rem .25rem 0;
+    transition: backgound-color 0.5s ease;
+    width: 100px;
+    height: 41px;
+    left: 182px;
+    top: 774px;
+}
+
+/* Desktop Layout*/
+@media screen and (min-width: 40rem) {
+    .col-span-8 {
+        grid-column: span 8;
+    }
+    .col-span-7 {
+        grid-column: span 7;
+    }
+    .col-span-4 {
+        grid-column: span 4;
+    }
+    .col-span-2 {
+        grid-column: span 2;
+    }
+    .col-span-1 {
+        grid-column: span 1;
+    }
+    .col-span-3 {
+        grid-column: span 3;
+    }
+    .col-span-5 {
+        grid-column: span 5;
+    }
+    .col-span-6 {
+        grid-column: span 6;
+    }
+    .col-span-9 {
+        grid-column: span 9;
+    }
+    .col-span-10 {
+        grid-column: span 10;
+    }
+    .col-span-11 {
+        grid-column: span 11;
+    }
+    .col-span-12 {
+        grid-column: span 12;
+    }
+
+.work-section {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+    .card {
+        flex-basis: 27.5%;
+    }
+}

@@ -21,6 +21,7 @@ font-size: 2rem;
     line-height: 24px;
 }
 
+
   h2 {
     color: #ffffff;
     font-size: 1.35rem;
@@ -35,11 +36,14 @@ h4 {
     font-size: 1rem;
 }
 
-img {
 
-}
-
-.logo {
+.regular-container-margin {
+    margin:1rem 0rem 0rem 0rem;
+    width: min(95%, 75rem);
+    display: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    scale: 95%;
 }
 
 a:link, a:visited {
@@ -57,14 +61,26 @@ a:hover {
 }
 
 .contactheader {
-    background-color: #FFD6BF;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(20,1fr);
+    grid-template-columns: repeat(21,1fr);
     align-items:center;
-    height: 3rem;
+    justify-items: right;
+    padding: 1rem .5rem .5rem 0;
+    height: 1rem;
     color: white;
 }
+.orangebg {
+    background-color: #FFD6BF;
+}
+.bluebg {
+    background-color: #ABD7E0;
+}
+
+.greenbg {
+    background-color: #C9E0AB;
+}
+
 .underline {
     text-decoration: underline; 
 }
@@ -94,11 +110,32 @@ button {
 }
 
 .header {
-    background-color: #FFD6BF;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     margin: 0 0;
     height: 4.5rem;
+}
+
+.lightbluebg {
+    background-color: #EFFCFF;
+    margin: 0;
+    padding: 0;
+}
+
+.lightbluebg2 {
+    background-color: #EFFCFF;
+    margin:0rem 6rem 4rem 7rem;
+    padding: 1rem 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: min(95%, 75rem);
+}
+
+.gallerycontainer {
+    grid-column: span 12;
+    grid-template-columns: repeat(12,1fr);
+    margin: 4;
+
 }
 
 .container > *,
@@ -179,12 +216,15 @@ card-text {
     padding: 0 2rem 0.5rem;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 
 .my-work-button {
         color: white;
         background-color: #ABD7E0;
         text-align: center;
-        padding: 1rem 1.75rem;
         border-radius: 10px;
         box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
         display: inline-block;
@@ -250,6 +290,15 @@ card-text {
     .col-span-12 {
         grid-column: span 12;
     }
+    .col-span-13 {
+        grid-column: span 13;
+    }
+    .col-span-14 {
+        grid-column: span 14;
+    }
+    .col-span-21 {
+        grid-column: span 21;
+    }
 
 .work-section {
     display: flex;
@@ -260,3 +309,5 @@ card-text {
         flex-basis: 27.5%;
     }
 }
+
+

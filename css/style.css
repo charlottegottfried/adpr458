@@ -21,6 +21,14 @@ font-size: 2rem;
     line-height: 24px;
 }
 
+.barlowbutton {
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-weight: 600;
+    line-height: 38px;
+    font-size: 17px;
+
+}
 
   h2 {
     color: #ffffff;
@@ -52,8 +60,6 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #6e8fc7;
-    text-decoration: underline;
 }
 
 .center {
@@ -192,12 +198,9 @@ nav a:hover {
     box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
     display: inline-block;
     margin: 0 .25rem .25rem 0;
-    transition: backgound-color 0.5s ease;
+    transition: 0.5s ease;
 }
 
-.button:hover {
-    color:rgb(255, 149, 0);
-}
 
 .card {
     text-align: center;
@@ -229,7 +232,7 @@ card-text {
         box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
         display: inline-block;
         margin: 0 .25rem .25rem 0;
-        transition: backgound-color 0.5s ease;
+        transition: 0.5s ease;
         width: 100px;
         height: 41px;
         left: 71px;
@@ -240,12 +243,11 @@ card-text {
     color: white;
     background-color: #FFD990;
     text-align: center;
-    padding: 1rem 1.75rem;
     border-radius: 10px;
     box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
     display: inline-block;
     margin: 0 .25rem .25rem 0;
-    transition: backgound-color 0.5s ease;
+    transition: 0.5s ease;
     width: 100px;
     height: 41px;
     left: 182px;

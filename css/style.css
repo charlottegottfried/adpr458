@@ -54,10 +54,22 @@ h4 {
     scale: 95%;
 }
 
+.gallery {
+    margin:1rem 3rem 1rem 3rem;
+    display: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.indvphotos {
+    padding: 0 2px 0 2px;
+}
+
 a:link, a:visited {
     color: #9abcf8;
     text-decoration: none;
 }
+
+
 
 a:hover {
 }
@@ -192,6 +204,11 @@ nav a:hover {
 
 }
 
+.logo:link,
+.logo:visited {
+    padding: 0;
+}
+
 /***** Components ******/
 .button:link, .button:visited {
     color: white;
@@ -315,5 +332,6 @@ card-text {
         flex-basis: 27.5%;
     }
 }
+
 
 

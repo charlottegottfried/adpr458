@@ -91,10 +91,10 @@ a:hover {
     color: white;
 }
 .orangebg {
-    background-color: #ffad7e;
+    background-color: #323637;
 }
 .bluebg {
-    background-color: #7cd1e2;
+    background-color: #009FC7;
 }
 .navybg {
     background-color: #192434;
@@ -107,7 +107,7 @@ a:hover {
 }
 
 .greenbg {
-    background-color: #b1de76;
+    background-color: #7D9C44;
 }
 .yellowbg {
     background-color: #ffb62e;
@@ -262,7 +262,7 @@ card-text {
 
 .my-work-button {
         color: white;
-        background-color: #ABD7E0;
+        background-color: #009FC7;
         text-align: center;
         border-radius: 10px;
         box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
@@ -277,7 +277,7 @@ card-text {
 
 .gondola-button {
     color: white;
-    background-color: #FFD990;
+    background-color: #ffb62e;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);

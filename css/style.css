@@ -30,6 +30,8 @@ font-size: 2rem;
 
 }
 
+
+
   h2 {
     color: #ffffff;
     font-size: 1.35rem;
@@ -89,10 +91,10 @@ a:hover {
     color: white;
 }
 .orangebg {
-    background-color: #FFD6BF;
+    background-color: #ffad7e;
 }
 .bluebg {
-    background-color: #ABD7E0;
+    background-color: #7cd1e2;
 }
 .navybg {
     background-color: #192434;
@@ -105,7 +107,7 @@ a:hover {
 }
 
 .greenbg {
-    background-color: #C9E0AB;
+    background-color: #b1de76;
 }
 .yellowbg {
     background-color: #ffb62e;
@@ -180,6 +182,7 @@ button {
 .align-right {
     justify-items: right;
 }
+
 
 /*******Navigation Using Flexbox*********/
 nav {
@@ -287,6 +290,8 @@ card-text {
     top: 774px;
 }
 
+
+
 /* Desktop Layout*/
 @media screen and (min-width: 40rem) {
     .col-span-8 {
@@ -344,6 +349,8 @@ card-text {
         flex-basis: 27.5%;
     }
 }
+
+
 
 
 
